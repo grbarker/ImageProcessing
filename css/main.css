@@ -1,0 +1,121 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+
+div#social a {
+  margin: 0 1em 0 0;
+}
+
+div#social a:last-of-type {
+  margin: 0;
+}
+
+div#social {
+  line-height: 2em;
+}
+
+ article, figure{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  margin: 2em;
+
+}
+
+h1, h2, article, section {
+  box-sizing: border-box;
+}
+
+article {
+    max-width: 55em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+h1 {
+    width: 800px;
+    text-align: center;
+
+}
+
+section {
+
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+figure {
+    margin: 1em 0, 1em 0;
+    max-width: 100%;
+    display: block;
+    float: left;
+
+}
+
+footer {
+  border-top: 1px solid #E0E0E0;
+  max-width: 55em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+}
+
+footer ul {
+  text-align: center;
+  display: flex;
+  max-width: 100%;
+  padding-left: 0em;
+}
+
+footer li {
+  margin: 0px;
+  padding-left: .15em;
+  padding-right: .15em;
+  max-width: 12em;
+  display: inline-block;
+}
+/*@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+/*[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+
+
